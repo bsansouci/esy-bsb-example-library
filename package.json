@@ -1,11 +1,10 @@
 {
-  "name": "esy-example",
+  "name": "EsyExampleLibrary",
   "version": "0.0.1",
-  "description": "Example using bsb-native inside esy",
+  "description": "Example using bsb-native inside esy to build a library",
   "esy": {
     "build": [
-      ["bsb.exe"],
-      ["bsb.exe", "-backend", "native"]
+      ["bsb.exe", "-build-library"]
     ],
     "install": [
       "esy-installer"
@@ -26,14 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bsansouci/esy-bsb-example.git"
+    "url": "git+https://github.com/bsansouci/esy-bsb-example-library.git"
   },
-  "author": "bsansouci & schmavery",
-  "opam": {
-    "type": "binary",
-    "binaries": {
-      "lib/bs/bytecode/index.byte": "example.byte",
-      "lib/bs/native/index.native": "example.native"
-    }
-  }
+  "author": "bsansouci & schmavery"
 }

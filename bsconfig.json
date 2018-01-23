@@ -1,7 +1,8 @@
 {
-  "name": "esy-example",
+  "name": "EsyExampleLibrary",
   "sources": "src",
   "bsc-flags": [],
+  "warnings": {"number": "-24", "error": true},
   "ocamlfind-dependencies": ["alcotest"],
   "entries": [{
     "backend": "bytecode",
@@ -10,5 +11,6 @@
     "backend": "native",
     "main-module": "Index"
   }],
+  "namespace": true,
   "refmt": 3
 }
