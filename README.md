@@ -1,15 +1,6 @@
 esy-bsb-example
 ---
 
-This is a an example project for [bsb-native](https://github.com/bsansouci/bsb-native) working inside [esy](https://esy.sh) using the opam package called [Alcotest](https://github.com/mirage/alcotest).
+This is a an example project exposing a library using [bsb-native](https://github.com/bsansouci/bsb-native) working inside [esy](https://esy.sh).
 
-You'll need to install esy for this: `npm install -g esy`
-
-## Install
-`esy install`
-
-## Build
-`esy build`
-
-## Run
-`esy x example.native`
+See the [binary example](https://github.com/bsansouci/esy-bsb-example) to understand how to use this.
